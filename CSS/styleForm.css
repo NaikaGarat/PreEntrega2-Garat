@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+  }
+
+  #grilla {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 60% 20%;
+    background-color: rgba(253, 190, 72, 0.486);
+
+  }
+  .border {
+    border: 1px solid rgb(39, 187, 155);
+   }
+   header {
+    grid-area: header;
+   }
+   footer {
+    grid-area: footer;
+   }
+   section#formulario {
+    grid-area: formulario;
+   }
+   nav {
+    grid-area: nav;
+   }
+
+   footer {
+    background-color: rgb(105, 201, 188);
+    color: white;
+    padding: 80px;
+  }
+  

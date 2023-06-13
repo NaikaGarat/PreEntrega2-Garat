@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+  }
+  
+@media screen and (min-width: 1200px) { 
+
+body {
+  text-align: center;
+}
+
+.contenedor {
+    background-color: #2e9c8e;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 50px;
+}
+   
+.logo {
+    margin-right: 10px;
+}
+.titulo {
+    flex:1
+}
+
+nav {
+    display: flex;
+}
+nav a {
+    margin-right: 20px;
+}
+
+/* Aplicare grid para las secciones de productos */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .destacados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  #tablaDestacados {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  #tablaDestacados img {
+    width: 150px;
+    height: 150px;
+  }
+
+/* Diseñaremos el pie de pagina */
+#pieDePag{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(151, 215, 240);
+    padding: 20px;
+}
+
+}
